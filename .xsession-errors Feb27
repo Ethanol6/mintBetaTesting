@@ -1,0 +1,194 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/ethan/.Xauthority
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-cinnamon:/etc/xdg
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session1
+dbus-update-activation-environment: setting LANGUAGE=en_CA:en
+dbus-update-activation-environment: setting DESKTOP_SESSION=cinnamon
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting PWD=/home/ethan
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=cinnamon
+dbus-update-activation-environment: setting LOGNAME=ethan
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/ethan/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/ethan
+dbus-update-activation-environment: setting GDM_LANG=en_CA
+dbus-update-activation-environment: setting HOME=/home/ethan
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LANG=en_CA.UTF-8
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting LIBVIRT_DEFAULT_URI=qemu:///system
+dbus-update-activation-environment: setting USER=ethan
+dbus-update-activation-environment: setting DISPLAY=:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting GTK3_MODULES=xapp-gtk3-module
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/cinnamon:/usr/share/gnome:/home/ethan/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting PATH=/home/ethan/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting GDMSESSION=cinnamon
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+[cinnamon-settings-daemon-smartcard] Failed to start: no suitable smartcard driver could be found
+
+(csd-keyboard:3278): Gdk-ERROR **: 10:00:20.665: The program 'csd-keyboard' received an X Window System error.
+This probably reflects a bug in the program.
+The error was 'BadWindow (invalid Window parameter)'.
+  (Details: serial 623 error_code 3 request_code 18 (core protocol) minor_code 0)
+  (Note to programmers: normally, X errors are reported asynchronously;
+   that is, you will receive the error a while after causing it.
+   To debug your program, run it with the GDK_SYNCHRONIZE environment
+   variable to change this behavior. You can then get a meaningful
+   backtrace from your debugger if you break on the gdk_x_error() function.)
+cinnamon-session[3134]: WARNING: t+0.82618s: Application 'cinnamon-settings-daemon-keyboard.desktop' killed by signal 5
+Failure: No such entity
+
+(csd-media-keys:3285): Cvc-CRITICAL **: 10:00:21.687: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Cjs-Message: 10:00:21.820: Profiler is disabled. Not setting up signals.
+Clutter-Message: 10:00:21.854: Sync method: PRESENTATION TIME
+cinnamon-session[3134]: WARNING: t+1.93099s: Failed to start app: Unable to start application: Failed to execute child process “/usr/lib/protonmail/bridge/proton-bridge-launcher” (No such file or directory)
+
+(nm-applet:3458): libnotify-WARNING **: 10:00:22.052: Failed to connect to proxy
+
+(nm-applet:3458): nm-applet-WARNING **: 10:00:22.053: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+Cjs-Message: 10:00:22.056: JS LOG: About to start Cinnamon
+qt5ct: using qt5ct plugin
+kdeconnect.core: Daemon starting
+kdeconnect.core: LanLinkProvider started
+kdeconnect.core: Daemon started
+kdeconnect.core: Broadcasting identity packet
+kdeconnect.core: Could not query capabilities from notifications server
+cinnamon-session[3134]: WARNING: t+2.84479s: Detected that screensaver has appeared on the bus
+** Message: 10:00:22.860: nemo-desktop: session is cinnamon, establishing proxy
+Cjs-Message: 10:00:22.981: JS LOG: [LookingGlass/info] Cinnamon.AppSystem.get_default() started in 923 ms
+Cjs-Message: 10:00:22.985: JS LOG: [LookingGlass/info] loading user theme: /usr/share/themes/Mint-Y-Dark/cinnamon/cinnamon.css
+Cjs-Message: 10:00:22.999: JS LOG: [LookingGlass/info] added icon directory: /usr/share/themes/Mint-Y-Dark/cinnamon
+Cjs-Message: 10:00:23.152: JS LOG: [LookingGlass/info] loaded at Sun Feb 27 2022 10:00:23 GMT-0700 (Mountain Standard Time)
+Cjs-Message: 10:00:23.152: JS LOG: Cinnamon started at Sun Feb 27 2022 10:00:23 GMT-0700 (Mountain Standard Time)
+Cjs-Message: 10:00:23.158: JS LOG: [LookingGlass/info] ExtensionSystem started in 0 ms
+Cjs-Message: 10:00:23.158: JS LOG: [LookingGlass/info] NaNms
+Cjs-Message: 10:00:23.158: JS LOG: [LookingGlass/info] SearchProviderManager started in 0 ms
+openGL version 4.6 detected (GL3 Cogl Driver)
+MetaSyncRing disabled: couldn't find required GL extensions, or the minimum safe openGL version was not met
+Cjs-Message: 10:00:23.201: JS LOG: [LookingGlass/info] Loaded applet removable-drives@cinnamon.org in 27 ms
+Cjs-Message: 10:00:23.208: JS LOG: [LookingGlass/info] Loaded applet show-desktop@cinnamon.org in 7 ms
+Cjs-Message: 10:00:23.210: JS LOG: [LookingGlass/info] Role locked: tray
+Cjs-Message: 10:00:23.212: JS LOG: [LookingGlass/info] Loaded applet systray@cinnamon.org in 4 ms
+Cjs-Message: 10:00:23.217: JS LOG: [LookingGlass/info] Loaded applet favorites@cinnamon.org in 5 ms
+St-Message: 10:00:23.224: cogl npot texture sizes SUPPORTED
+Cjs-Message: 10:00:23.270: JS LOG: [LookingGlass/info] Role locked: notifications
+Cjs-Message: 10:00:23.275: JS LOG: [LookingGlass/info] Loaded applet notifications@cinnamon.org in 58 ms
+Cjs-Message: 10:00:23.286: JS LOG: [LookingGlass/info] Loaded applet printers@cinnamon.org in 11 ms
+Cjs-Message: 10:00:23.297: JS LOG: [LookingGlass/info] Loaded applet keyboard@cinnamon.org in 11 ms
+Cjs-Message: 10:00:23.348: JS LOG: [LookingGlass/info] Loaded applet calendar@cinnamon.org in 51 ms
+Cjs-Message: 10:00:23.351: JS LOG: [LookingGlass/info] Loaded applet xapp-status@cinnamon.org in 3 ms
+Cjs-Message: 10:00:23.394: JS LOG: [LookingGlass/info] Loaded applet power@cinnamon.org in 43 ms
+Cjs-Message: 10:00:23.432: JS LOG: [LookingGlass/info] Role locked: panellauncher
+Cjs-Message: 10:00:23.454: JS LOG: [LookingGlass/info] Loaded applet grouped-window-list@cinnamon.org in 60 ms
+Cjs-Message: 10:00:23.463: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: nm-applet (:1.53/org/x/StatusIcon/Icon)
+
+** (csd-power:3255): CRITICAL **: 10:00:23.474: abs_to_percentage: assertion 'max > min' failed
+Cjs-Message: 10:00:23.509: JS LOG: [LookingGlass/info] Loaded applet sound@cinnamon.org in 55 ms
+Cjs-Message: 10:00:23.533: JS LOG: [LookingGlass/info] Hiding XAppStatusIcon (we have an applet): nm-applet (:1.53/org/x/StatusIcon/Icon)
+Cjs-Message: 10:00:23.546: JS LOG: [LookingGlass/info] Loaded applet network@cinnamon.org in 37 ms
+Cjs-Message: 10:00:23.690: JS LOG: [LookingGlass/info] Loaded applet menu@cinnamon.org in 144 ms
+Cjs-Message: 10:00:23.690: JS LOG: [LookingGlass/info] AppletManager started in 538 ms
+Cjs-Message: 10:00:23.692: JS LOG: [LookingGlass/info] Cinnamon took 1636 ms to start
+Cjs-Message: 10:00:23.701: JS LOG: Unknown network device type, is 14
+Cjs-Message: 10:00:23.713: JS LOG: Unknown network device type, is 30
+Cjs-Message: 10:00:23.713: JS LOG: Unknown network device type, is 13
+Cjs-Message: 10:00:23.713: JS LOG: Unknown network device type, is 16
+mintUpdate(2356): Operation not permitted
+Traceback (most recent call last):
+  File "/usr/lib/linuxmint/mintUpdate/checkAPT.py", line 356, in <module>
+    check.find_changes()
+  File "/usr/lib/linuxmint/mintUpdate/checkAPT.py", line 55, in find_changes
+    _metas = [s for s in self.cache.keys() if s.startswith(lts_meta_name)]
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 366, in keys
+    self._sorted_set = sorted(p.get_fullname(pretty=True)
+  File "/usr/lib/python3/dist-packages/apt/cache.py", line 366, in <genexpr>
+    self._sorted_set = sorted(p.get_fullname(pretty=True)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xef in position 7: invalid continuation byte
+Cjs-Message: 10:00:42.751: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintUpdate.py (:1.90/org/x/StatusIcon/Icon)
+cinnamon-session[3134]: WARNING: t+32.84832s: Detected that screensaver has left the bus
+Cjs-Message: 10:01:02.770: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintreport (:1.93/org/x/StatusIcon/Icon)
+Cjs-Message: 10:05:24.462: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: :1.106 (:1.50/org/x/StatusIcon/Icon)
+Cjs-Message: 10:05:44.082: JS LOG: [LookingGlass/info] Adding XAppStatusIcon:  (:1.50/org/x/StatusIcon/Icon_1)
+Cjs-Message: 10:10:35.628: JS LOG: [LookingGlass/info] Adding XAppStatusIcon:  (:1.50/org/x/StatusIcon/Icon_2)
+cinnamon-session[3134]: WARNING: t+2615.78089s: Detected that screensaver has appeared on the bus
+
+(csd-media-keys:3285): Cvc-CRITICAL **: 10:43:55.955: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+
+(csd-media-keys:3285): Cvc-CRITICAL **: 10:43:55.955: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+
+** (csd-media-keys:3285): WARNING **: 10:43:55.955: Unable to get default source
+
+** (csd-media-keys:3285): WARNING **: 10:43:55.955: Unable to get default sink
+
+(csd-media-keys:3285): Cvc-CRITICAL **: 10:43:55.955: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+
+(csd-media-keys:3285): Cvc-CRITICAL **: 10:43:55.955: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+
+(csd-media-keys:3285): Cvc-CRITICAL **: 10:43:55.955: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+
+** (csd-media-keys:3285): WARNING **: 14:34:17.003: Unable to get default sink
+
+(csd-media-keys:3285): Cvc-CRITICAL **: 14:34:17.026: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+cinnamon-session[3134]: WARNING: t+16464.58579s: Detected that screensaver has left the bus
+Cinnamon warning: CurrentTime used to choose focus window; focus window may not be correct.
+Cinnamon warning: Got a request to focus 0x8000007 (Disks) with a timestamp of 0.  This shouldn't happen!
+Cinnamon warning: CurrentTime used to choose focus window; focus window may not be correct.
+Cinnamon warning: Got a request to focus the no_focus_window with a timestamp of 0.  This shouldn't happen!
+Cinnamon warning: Log level 8: Source ID 213 was not found when attempting to remove it
+Cjs-Message: 14:35:18.143: Profiler is disabled. Not setting up signals.
+Clutter-Message: 14:35:18.160: Sync method: PRESENTATION TIME
+Cjs-Message: 14:35:18.255: JS LOG: About to start Cinnamon
+Cjs-Message: 14:35:18.294: JS LOG: [LookingGlass/info] Cinnamon.AppSystem.get_default() started in 37 ms
+Cjs-Message: 14:35:18.299: JS LOG: [LookingGlass/info] loading user theme: /usr/share/themes/Mint-Y-Dark/cinnamon/cinnamon.css
+Cjs-Message: 14:35:18.309: JS LOG: [LookingGlass/info] added icon directory: /usr/share/themes/Mint-Y-Dark/cinnamon
+Cjs-Message: 14:35:18.411: JS LOG: [LookingGlass/info] loaded at Sun Feb 27 2022 14:35:18 GMT-0700 (Mountain Standard Time)
+Cjs-Message: 14:35:18.411: JS LOG: Cinnamon started at Sun Feb 27 2022 14:35:18 GMT-0700 (Mountain Standard Time)
+Cjs-Message: 14:35:18.418: JS LOG: [LookingGlass/info] ExtensionSystem started in 1 ms
+Cjs-Message: 14:35:18.418: JS LOG: [LookingGlass/info] NaNms
+Cjs-Message: 14:35:18.418: JS LOG: [LookingGlass/info] SearchProviderManager started in 1 ms
+openGL version 4.6 detected (GL3 Cogl Driver)
+MetaSyncRing disabled: couldn't find required GL extensions, or the minimum safe openGL version was not met
+Cjs-Message: 14:35:18.464: JS LOG: [LookingGlass/info] Role locked: tray
+Cjs-Message: 14:35:18.468: JS LOG: [LookingGlass/info] Loaded applet systray@cinnamon.org in 19 ms
+Cjs-Message: 14:35:18.487: JS LOG: [LookingGlass/info] Loaded applet show-desktop@cinnamon.org in 19 ms
+Cjs-Message: 14:35:18.496: JS LOG: [LookingGlass/info] Loaded applet removable-drives@cinnamon.org in 9 ms
+Cjs-Message: 14:35:18.500: JS LOG: [LookingGlass/info] Loaded applet favorites@cinnamon.org in 4 ms
+St-Message: 14:35:18.505: cogl npot texture sizes SUPPORTED
+Cjs-Message: 14:35:18.518: JS LOG: [LookingGlass/info] Loaded applet keyboard@cinnamon.org in 18 ms
+Cjs-Message: 14:35:18.522: JS LOG: [LookingGlass/info] Role locked: notifications
+Cjs-Message: 14:35:18.538: JS LOG: [LookingGlass/info] Loaded applet notifications@cinnamon.org in 20 ms
+Cjs-Message: 14:35:18.552: JS LOG: [LookingGlass/info] Loaded applet printers@cinnamon.org in 14 ms
+Cjs-Message: 14:35:18.582: JS LOG: [LookingGlass/info] Loaded applet calendar@cinnamon.org in 30 ms
+Cjs-Message: 14:35:18.587: JS LOG: [LookingGlass/info] Loaded applet xapp-status@cinnamon.org in 5 ms
+Cjs-Message: 14:35:18.607: JS LOG: [LookingGlass/info] Loaded applet power@cinnamon.org in 19 ms
+Cjs-Message: 14:35:18.616: JS LOG: [LookingGlass/info] Role locked: panellauncher
+Cjs-Message: 14:35:18.619: JS LOG: [LookingGlass/info] Loaded applet grouped-window-list@cinnamon.org in 11 ms
+Cjs-Message: 14:35:18.638: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintreport (:1.93/org/x/StatusIcon/Icon)
+Cjs-Message: 14:35:18.640: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: nm-applet (:1.53/org/x/StatusIcon/Icon)
+
+** (csd-power:3255): CRITICAL **: 14:35:18.640: abs_to_percentage: assertion 'max > min' failed
+Cjs-Message: 14:35:18.643: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: slack (:1.50/org/x/StatusIcon/Icon_2)
+Cjs-Message: 14:35:18.645: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: discord (:1.50/org/x/StatusIcon/Icon)
+Cjs-Message: 14:35:18.646: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: guilded (:1.50/org/x/StatusIcon/Icon_1)
+Cjs-Message: 14:35:18.667: JS LOG: [LookingGlass/info] Loaded applet sound@cinnamon.org in 48 ms
+Cjs-Message: 14:35:18.708: JS LOG: [LookingGlass/info] Hiding XAppStatusIcon (we have an applet): nm-applet (:1.53/org/x/StatusIcon/Icon)
+Cjs-Message: 14:35:18.713: JS LOG: [LookingGlass/info] Loaded applet network@cinnamon.org in 46 ms
+Cjs-Message: 14:35:18.845: JS LOG: [LookingGlass/info] Loaded applet menu@cinnamon.org in 132 ms
+Cjs-Message: 14:35:18.846: JS LOG: [LookingGlass/info] AppletManager started in 434 ms
+Cjs-Message: 14:35:18.848: JS LOG: [LookingGlass/info] Cinnamon took 593 ms to start
+Cjs-Message: 14:35:18.866: JS LOG: Unknown network device type, is 14
+Cjs-Message: 14:35:18.871: JS LOG: Unknown network device type, is 30
+Cjs-Message: 14:35:18.871: JS LOG: Unknown network device type, is 13
+Cjs-Message: 14:35:18.871: JS LOG: Unknown network device type, is 16
+
+(cinnamon:3409): XApp-WARNING **: 14:35:43.655: Couldn't create object manager for bus name: Timeout was reached
